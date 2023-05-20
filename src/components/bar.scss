@@ -1,0 +1,33 @@
+.bar-con{
+    width: 50%;
+    min-width: 300px;
+        h1{
+            font-family: 'Poppins',sans-serif;
+        }
+}
+.progress-con{
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+        h1{
+            font-family: 'Poppins',sans-serif;
+            text-align: center;
+        }
+        .prog-wrap{
+            min-width: 300px;
+            max-width: 320px;
+            align-self: center;
+            position: relative;
+                .per-p{
+                    position: absolute;
+                    top:35%;
+                    left: 0;
+                    right: 0;
+                    margin: auto 0;
+                    font-size: 54px;
+                    font-weight: 600;
+                    font-family: 'Poppins',sans-serif;
+                }
+        }
+}

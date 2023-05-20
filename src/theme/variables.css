@@ -81,7 +81,9 @@ http://ionicframework.com/docs/theming/ */
    * Dark Colors
    * -------------------------------------------
    */
-
+  h1,h2,h3,h4,h5,h6,p,a,button,input,div,span,li{
+  font-family: 'Poppins', sans-serif;
+  }
   body {
     --ion-color-primary: #428cff;
     --ion-color-primary-rgb: 66,140,255;
@@ -233,4 +235,7 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-card-background: #1e1e1e;
   }
+}
+ion-label{
+  font-family: 'Poppins', sans-serif;
 }
